@@ -1,8 +1,8 @@
 {
-    "service_title": "Microservice 1 (Nexus/Go based)",
-    "service_name": "microservice_1",
+    "service_title": "App Service (Nexus/Go based)",
+    "service_name": "service_1",
 
-    "image": ["golang:1.10", "golang:1.8", "golang:1.7"],
+    "image": "golang:1.10",
 
     "url": "ws://localhost:8080/ws",
     "realm": "realm1",
